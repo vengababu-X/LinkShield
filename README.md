@@ -18,7 +18,9 @@ No nonsense.
 
 Every day people lose money because of fake links like:
 
-https://sbi.co.in.secure-login.net https://paytm.com.verify-kyc.in https://amazon.in.refund-center.co
+https://sbi.co.in.secure-login.net
+https://paytm.com.verify-kyc.in 
+https://amazon.in.refund-center.co
 
 They *look* real.  
 They are not.

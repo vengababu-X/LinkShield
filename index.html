@@ -8,22 +8,16 @@
 </head>
 
 <body>
-  <div class="container">
+<div class="container">
     <h1>🛡️ LinkShield</h1>
-    <p>Paste any suspicious link below</p>
+    <p>Paste any suspicious link</p>
 
-    <input 
-      type="text" 
-      id="linkInput" 
-      placeholder="https://example.com"
-      autocomplete="off"
-    >
+    <input id="linkInput" placeholder="https://example.com">
+    <button onclick="scanLink()">Check Link</button>
 
-    <button onclick="checkLink()">Check Link</button>
+    <div id="result"></div>
+</div>
 
-    <div id="output"></div>
-  </div>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

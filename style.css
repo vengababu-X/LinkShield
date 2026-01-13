@@ -1,51 +1,49 @@
 body {
-  background: linear-gradient(135deg,#020409,#000814);
+  background: #020409;
   font-family: Arial, sans-serif;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:100vh;
-  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: white;
 }
 
 .container {
-  background: rgba(15,20,40,0.9);
+  background: #0a1020;
   padding: 25px;
   border-radius: 15px;
   width: 90%;
   max-width: 420px;
   text-align: center;
-  box-shadow: 0 0 40px rgba(0,255,255,0.15);
+  box-shadow: 0 0 30px rgba(0,255,255,0.15);
 }
 
 h1 {
-  color:#00ffff;
-  margin-bottom:5px;
+  color: #00ffff;
 }
 
 input {
-  width:100%;
-  padding:14px;
-  border-radius:8px;
-  border:none;
-  outline:none;
-  background:#02040a;
-  color:#00ffff;
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  background: #02040a;
+  color: #00ffff;
 }
 
 button {
-  width:100%;
-  margin-top:15px;
-  padding:14px;
-  border:none;
-  border-radius:8px;
-  background:#00ffff;
-  color:black;
-  font-weight:bold;
-  cursor:pointer;
+  width: 100%;
+  margin-top: 15px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #00ffff;
+  color: black;
+  font-weight: bold;
 }
 
 #result {
-  margin-top:20px;
-  font-size:18px;
+  margin-top: 20px;
+  font-size: 18px;
 }

@@ -6,18 +6,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-<div class="container">
+<body>
+  <div class="container">
     <h1>🛡️ LinkShield</h1>
     <p>Paste any suspicious link below</p>
 
-    <input type="text" id="linkInput" placeholder="https://example.com">
+    <input 
+      type="text" 
+      id="linkInput" 
+      placeholder="https://example.com"
+      autocomplete="off"
+    >
+
     <button onclick="checkLink()">Check Link</button>
 
     <div id="output"></div>
-</div>
+  </div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
